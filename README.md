@@ -4,8 +4,6 @@ This is a Composer plugin that outputs the Ukrainian flag and the message "Stand
 
 ## Installation
 
-## Installation
-
 Add this plugin to your project using Composer. To avoid prompts, first allow the plugin, then require it:
 
 ```
