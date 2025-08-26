@@ -1,25 +1,18 @@
 {
-    "name": "codecodeio/stand-with-ukraine",
-    "description": "Outputs the Ukrainian flag and 'Stand With Ukraine' message on composer install.",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Codecodeio\\StandWithUkraine\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Matt Code",
-            "email": "matt@codecode.io"
-        }
-    ],
-    "scripts": {
-        "post-install-cmd": [
-            "Codecodeio\\StandWithUkraine\\StandWithUkraine::showMessage"
-        ],
-        "stand-with-ukraine": "Codecodeio\\StandWithUkraine\\StandWithUkraine::showMessage"
-    },
-    "minimum-stability": "stable",
-    "require": {}
+  "name": "codecodeio/stand-with-ukraine",
+  "description": "Outputs the Ukrainian flag and 'Stand With Ukraine' message on composer install.",
+  "type": "composer-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Codecodeio\\StandWithUkraine\\": "src/"
+    }
+  },
+  "extra": {
+    "class": "Codecodeio\\StandWithUkraine\\Plugin"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "composer-plugin-api": ">=1.0"
+  }
 }
