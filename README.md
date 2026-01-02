@@ -1,6 +1,6 @@
 # Stand With Ukraine Composer Plugin
 
-This is a Composer plugin that outputs the Ukrainian flag and the message "Stand With Ukraine" when installed or updated via Composer.
+This is a Composer plugin that outputs the Ukrainian flag and the message "Stand With Ukraine" when running install or update commands via Composer. Let others know you support Ukraine and stand for peace and freedom. 🇺🇦
 
 ## Installation
 
@@ -22,6 +22,15 @@ When this plugin is installed and allowed, it will automatically display the Ukr
 🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨
 Stand With Ukraine 🇺🇦
 ```
+
+## GitHub Repository
+
+[https://github.com/codecodeio/stand-with-ukraine](https://github.com/codecodeio/stand-with-ukraine)
+
+## Composer Package
+
+[https://packagist.org/packages/codecodeio/stand-with-ukraine](https://packagist.org/packages/codecodeio/stand-with-ukraine)
+
 
 ## License
 
